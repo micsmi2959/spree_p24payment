@@ -1,4 +1,4 @@
-require 'app/models/spree/payment_method/p24payment'
+require 'app/models/spree/payment_method/p24payment.rb'
 module SpreePrzelewy24
   class Engine < Rails::Engine
     engine_name 'spree_p24payment'
