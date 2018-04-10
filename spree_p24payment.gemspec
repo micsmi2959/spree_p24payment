@@ -1,7 +1,7 @@
 
 #lib = File.expand_path("../lib", __FILE__)
 #$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-#require "spree_p24payment/version"
+require "spree_p24payment/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "spree_p24payment"
