@@ -13,4 +13,8 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = 'https://github.com/micsmi2959/spree_p24payment'
 
+  s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']
+  s.require_path = 'lib'
+  s.requirements << 'none'
+
 end
