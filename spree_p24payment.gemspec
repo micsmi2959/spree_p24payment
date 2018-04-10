@@ -8,12 +8,13 @@ Gem::Specification.new do |spec|
   spec.version       = SpreeP24payment::VERSION
   spec.authors       = ["micsmi2959"]
   spec.email         = ["mic.smiechowicz@gmail.com"]
+  spec.required_ruby_version = '>= 1.8.7'
 
   spec.summary       = %q{Write a short summary, because RubyGems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = 'https://github.com/micsmi2959/spree_p24payment'
 
-  spec.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']
+  spec.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*', 'app/models/spree/payment_method/p24payment.rb']
   spec.require_path = 'lib'
   spec.requirements << 'none'
 
