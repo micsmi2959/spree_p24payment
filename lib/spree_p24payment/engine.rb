@@ -6,7 +6,7 @@ module SpreePrzelewy24
     config.autoload_paths += %W(#{config.root}/lib)
 
     initializer "spree.gateway.payment_methods", :after => "spree.register.payment_methods" do |app|
-      app.config.spree.payment_methods << Spree::PaymentMethod::P24Payment
+      app.config.spree.payment_methods << P24Payment
     end
 
     config.to_prepare do
