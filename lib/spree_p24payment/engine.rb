@@ -1,6 +1,6 @@
+require 'app/models/spree/payment_methods/p24payment'
 module SpreePrzelewy24
   class Engine < Rails::Engine
-
     engine_name 'spree_p24payment'
 
     config.autoload_paths += %W(#{config.root}/lib)
